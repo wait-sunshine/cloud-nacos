@@ -1,0 +1,10 @@
+server:
+  port: 8401
+spring:
+  application:
+    name: cloud8401
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
